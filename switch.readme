@@ -1,0 +1,15 @@
+Add to cron job wi add switch to reboot and shutdown pi
+
+GPIO 4 = REBOOT
+GPIO 18 = Shutdown
+
+How to run
+Run :crontab -e
+add :@ereboot sudo python ~/rasppi-projects/switch.py
+
+then reboot pi : sudo reboot
+
+I used push button switches from ol computer (power and reset buttons)
+
+
+
